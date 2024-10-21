@@ -13,3 +13,7 @@ func GetName(a *Address) string {
 func GetCity(b *Address) string {
 	return b.City
 }
+
+func GetCountry(c *Address) string {
+	return c.Country
+}
