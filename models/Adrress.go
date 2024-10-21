@@ -9,3 +9,7 @@ type Address struct {
 func GetName(a *Address) string {
 	return a.Name
 }
+
+func GetCity(b *Address) string {
+	return b.City
+}
